@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
-import logo from "@/assets/logo.png.asset.json";
+import logo from "@/assets/logo.svg?url";
 import tortas from "@/assets/tortas.jpg";
 import pudim from "@/assets/pudim.jpg";
 import bolos from "@/assets/bolos.jpg";
@@ -87,7 +87,7 @@ function Index() {
         <div className="pointer-events-none absolute -left-24 top-10 h-64 w-64 rounded-full bg-blush/50 blur-2xl" />
         <div className="pointer-events-none absolute -right-20 bottom-0 h-72 w-72 rounded-full bg-blush/40 blur-2xl" />
         <div className="fade-in-up relative mx-auto flex max-w-xl flex-col items-center">
-          <img src={logo.url} alt="Logo Nessa Doces com moldura de morangos" width={700} height={700} className="h-60 w-60 rounded-full shadow-soft md:h-80 md:w-80" />
+          <img src={logo} alt="Logo Nessa Doces com moldura de morangos" width={700} height={700} className="h-60 w-60 rounded-full shadow-soft md:h-80 md:w-80" />
           <p className="mt-8 font-display text-3xl italic leading-snug md:text-4xl">Doces feitos com carinho para adoçar seus momentos</p>
           <a href={WHATS} target="_blank" rel="noopener noreferrer" className={`${btn} mt-8`}>
             <WhatsIcon /> Fazer meu pedido
@@ -154,7 +154,7 @@ function Index() {
 
       {/* Rodapé */}
       <footer className="bg-cream px-6 py-12 text-center">
-        <img src={logo.url} alt="Logo Nessa Doces" loading="lazy" width={96} height={96} className="mx-auto h-24 w-24 rounded-full" />
+        <img src={logo} alt="Logo Nessa Doces" loading="lazy" width={96} height={96} className="mx-auto h-24 w-24 rounded-full" />
         <a href={WHATS} target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex items-center gap-2 font-bold text-primary hover:underline">
           <WhatsIcon /> {PHONE}
         </a>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#fdeef0"/>
+      <stop offset="100%" stop-color="#f4d4d8"/>
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="195" fill="url(#bg)"/>
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#c8526a" stroke-width="3" stroke-dasharray="2 6" opacity="0.6"/>
+  <!-- decorative strawberries around top -->
+  <g fill="#c8526a">
+    <path d="M130 70c-8 0-14 6-14 14 0 10 14 22 14 22s14-12 14-22c0-8-6-14-14-14z"/>
+    <path d="M126 68c2-4 8-6 8-6s-2 6-6 7z" fill="#5a8f4a"/>
+  </g>
+  <g fill="#d96580">
+    <path d="M200 55c-8 0-14 6-14 14 0 10 14 22 14 22s14-12 14-22c0-8-6-14-14-14z"/>
+    <path d="M196 53c2-4 8-6 8-6s-2 6-6 7z" fill="#5a8f4a"/>
+  </g>
+  <g fill="#c8526a">
+    <path d="M270 70c-8 0-14 6-14 14 0 10 14 22 14 22s14-12 14-22c0-8-6-14-14-14z"/>
+    <path d="M266 68c2-4 8-6 8-6s-2 6-6 7z" fill="#5a8f4a"/>
+  </g>
+  <!-- text -->
+  <text x="200" y="195" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="58" font-weight="600" fill="#9c3b54" font-style="italic">Nessa</text>
+  <text x="200" y="240" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="38" font-weight="500" fill="#c8526a" letter-spacing="3">DOCES</text>
+  <!-- wave divider -->
+  <path d="M150 260 Q 165 252 180 260 T 210 260 T 240 260" fill="none" stroke="#c8526a" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="200" y="295" text-anchor="middle" font-family="Nunito, sans-serif" font-size="16" font-weight="600" fill="#9c3b54" letter-spacing="2">CONFEITARIA</text>
+  <text x="200" y="315" text-anchor="middle" font-family="Nunito, sans-serif" font-size="13" fill="#c8526a" opacity="0.8">ARTESANAL</text>
+</svg>
